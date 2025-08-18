@@ -1,0 +1,140 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: rgb(67, 67, 161);
+    display: flex;
+    height: 40px;
+    justify-content: flex-end;
+}
+
+.header button{
+    margin: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    background-color: rgb(74, 99, 141);
+
+    
+}
+
+.flex-container div{
+    flex: 1 1 0;
+    display: flex;
+    
+}
+
+#r2,#r4,#r5 {
+    flex-grow: 4;
+}
+
+#r3 {
+    flex-grow: 5;
+}
+
+#r4 {
+    flex-grow: 7;
+}
+
+.flex-container div div{
+    flex: 1;
+    
+}
+
+#rc12, #rc22, #rc32, #rc42, #rc52 {
+    flex: 3;
+}
+
+#rc22, #pc-r1, #rc42{
+    display: flex;
+    flex-direction: column;
+}
+
+#rc22-r2 {
+    display: flex;
+    flex: 6;
+}
+
+#rc22-rc22, #rc32-c2{
+    flex: 20;
+}
+
+#heading-moodmate h1{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: aliceblue;
+    font-size: xxx-large;
+}
+
+#rc32 {
+    display: flex;
+}
+
+#welcome-moodmate p{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+#rc42-r2 #prompt-container{
+    display: flex;
+    background-color: rgb(25, 34, 95);
+    flex: 20;
+    border-radius: 30px;
+}
+
+#prompt-container div{
+    background-color: transparent;
+}
+
+#textbox {
+    resize: none;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px 0px 0px 20px;
+    font-size: 18px;
+    background-color: rgb(165, 210, 247);
+}
+
+#prompt-container #textbox-container {
+    display: flex;
+    /* background-color: yellow; */
+    flex: 70;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(62, 122, 225);
+}
+
+
+
+
+
+/* .flex-container .heading{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.flex-container .welcome-message{
+    flex: 2 1 auto;
+    padding: 15px;
+    font-size: larger;
+}
+
+.flex-container .prompt-container{
+    flex: 0.25 1 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+} */
+
+
+/* .prompt{
+    height: 50px;
+    border-radius: 5px;
+
+} */
